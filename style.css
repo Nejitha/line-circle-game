@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: white;
+}
+
+#line {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: black;
+  top: 250px;
+  left: 100%;
+}
+
+#circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 50%;
+  top: 250px;
+  left: 220px;
+  cursor: pointer;
+  transition: top 0.1s;
+}
